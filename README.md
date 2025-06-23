@@ -10,4 +10,7 @@
 
 如果你有任何优化的建议，欢迎在[issues](https://github.com/Gaizhedu/markdown-learning-notes/issues)提出，我会及时修正错误并感激不尽！
 ## 写在最后
-希望这个仓库可以见证我 Markdown 的学习，也督促自己坚持到底，告别半途而废
+希望这个仓库可以见证我 Markdown 的学习，也督促自己坚持到底，告别半途而废的毛病
+
+## 更新日志  
+查看仓库的版本迭代记录：[CHANGELOG.md](CHANGELOG.md)  
