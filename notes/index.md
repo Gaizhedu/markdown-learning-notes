@@ -5,7 +5,7 @@
 - [x] [标题 (heading.md)](heading.md)
   - 学会`#`的用法
 - [x] [列表 (list.md)](list.md)
-  - 学会无序列表/有序列表/任务列表
+  - 学会无序列表 / 有序列表 / 任务列表
 
 ## 文本和美化
 - [ ] [代码块 (code-block.md)](code-block.md)
