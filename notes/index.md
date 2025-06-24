@@ -9,6 +9,7 @@
 
 ## 文本和美化
 - [x] [代码块 (code-block.md)](code-block.md)
+  - 学会围栏代码块以及缩进代码块的内容   
 - [ ] [文本样式 (text-styles.md)](text-styles.md)
 - [ ] [链接和图片 (links-images.md)](links-images.md)
 
