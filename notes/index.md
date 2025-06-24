@@ -8,7 +8,7 @@
   - 学会无序列表 / 有序列表 / 任务列表
 
 ## 文本和美化
-- [ ] [代码块 (code-block.md)](code-block.md)
+- [x] [代码块 (code-block.md)](code-block.md)
 - [ ] [文本样式 (text-styles.md)](text-styles.md)
 - [ ] [链接和图片 (links-images.md)](links-images.md)
 
