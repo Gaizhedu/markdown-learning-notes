@@ -15,7 +15,7 @@
 - [ ] [链接和图片 (links-images.md)](links-images.md)
 
 ## 排版与设计
-- [ ] [引用与分割线 (quote-divider.md)](quote-divider.md)
+- [x] [引用与分割线 (quote-divider.md)](quote-divider.md)
 - [ ] [表格 (table.md)](table.md)
 - [ ] [换行与段落 (line-breaks-paragraphs.md)](line-breaks-paragraphs.md)
 
@@ -34,3 +34,11 @@
 
 ### 其他
 - [ ] [表情 (emoji.md)](emoji.md)
+
+## 用HTML突破Markdown的局限
+- [ ] [图片居中 (html-image-center.md)](html-image-center.md)
+- [ ] [改变文字颜色 (html-text-color.md)](html-text-color.md)
+- [ ] [文本对齐 (html-text-alignment.md)](html-text-alignment.md	)
+- [ ] [可折叠内容 (html-details.md)](html-details.md)
+- [ ] [自定义表格 (html-table-styles.md)](html-table-styles.md)
+- [ ] [嵌入动态内容 (html-embed.md)](html-embed.md)
