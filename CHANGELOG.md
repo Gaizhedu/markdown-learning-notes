@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-06-25]
+- 新增：引用与分割线`notes/quote-divider.md`，介绍了有关引用与分割线的笔记
+
 ## [2025-06-24]
 - 新增：代码块笔记`notes/code-block.md`内容为有关围栏代码块和缩进代码块的笔记
 - 新增：文本样式笔记`notes/text-styles.md`，介绍了一些常见的文本样式
