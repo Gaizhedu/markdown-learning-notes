@@ -3,15 +3,11 @@
 
 ## 基础入门
 - [x] [标题 (heading.md)](heading.md)
-  - 学会`#`的用法
 - [x] [列表 (list.md)](list.md)
-  - 学会无序列表 / 有序列表 / 任务列表
 
 ## 文本和美化
 - [x] [代码块 (code-block.md)](code-block.md)
-  - 学会围栏代码块以及缩进代码块的内容   
 - [x] [文本样式 (text-styles.md)](text-styles.md)
-  - 学会基础的文本样式，如加粗 / 斜体 / 删除线
 - [ ] [链接和图片 (links-images.md)](links-images.md)
 
 ## 排版与设计
