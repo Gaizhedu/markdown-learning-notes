@@ -16,7 +16,7 @@
 
 ## 排版与设计
 - [x] [引用与分割线 (quote-divider.md)](quote-divider.md)
-- [ ] [表格 (table.md)](table.md)
+- [x] [表格 (table.md)](table.md)
 - [ ] [换行与段落 (line-breaks-paragraphs.md)](line-breaks-paragraphs.md)
 
 ## 扩展
