@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-06-26]
+- 新增：列表`notes/table.md`介绍了Markdown中有关列表的功能，包括列表的使用，以及列表的对齐
+
 ## [2025-06-25]
 - 新增：引用与分割线`notes/quote-divider.md`，介绍了有关引用与分割线的笔记
 - 新增：在`notes/index.md`中新增了`用HTML突破Markdown的局限`，用于解决Markdown的局限
