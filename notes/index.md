@@ -8,12 +8,11 @@
 ## 文本和美化
 - [x] [代码块 (code-block.md)](code-block.md)
 - [x] [文本样式 (text-styles.md)](text-styles.md)
-- [ ] [链接和图片 (links-images.md)](links-images.md)
+- [x] [链接和图片 (links-images.md)](links-images.md)
 
 ## 排版与设计
 - [x] [引用与分割线 (quote-divider.md)](quote-divider.md)
 - [x] [表格 (table.md)](table.md)
-- [ ] [换行与段落 (line-breaks-paragraphs.md)](line-breaks-paragraphs.md)
 
 ## 扩展
 ### 语法扩展
