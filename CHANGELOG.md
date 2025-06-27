@@ -4,6 +4,7 @@
 - 新增：文件夹`notes/assets`用于存放笔记中出现的图片
 - 新增：图片`notes/assets/001.jpg`和`notes/assets/002.jpg`，用于笔记`notes/links-images.md`中
 - 新增：链接与图片`notes/links-images.md`介绍了Markdown中有关链接和图片的内容，包括行内链接和引用式链接，相对链接与绝对链接的知识，图片的嵌入等内容
+- 删除：导航页`notes/index.md`中换行与段落 (line-breaks-paragraphs.md)的内容
 
 ## [2025-06-26]
 - 新增：列表`notes/table.md`介绍了Markdown中有关列表的功能，包括列表的使用，以及列表的对齐
