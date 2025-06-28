@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [2025-06-28]
+- 新增：LaTeX数学公式`notes/latex-math-formulas.md`，介绍了Markdown中表示出LaTex数学公式的方法，以及行内公式和块级公式
+- 新增：转义符号`notes/escape-characters.md`，介绍了Markdown中转义符号的使用，使得Markdown中的特殊符号得以显示为文本
+
 ## [2025-06-27]
 - 新增：文件夹`notes/assets`用于存放笔记中出现的图片
 - 新增：图片`notes/assets/001.jpg`和`notes/assets/002.jpg`，用于笔记`notes/links-images.md`中
