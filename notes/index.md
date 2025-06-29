@@ -18,8 +18,8 @@
 ### 语法扩展
 - [x] [数学公式（LaTeX 语法） (latex-math-formulas.md)](latex-math-formulas.md)
 - [x] [转义字符 (escape-characters.md)](escape-characters.md)
-- [ ] [脚注 (footnote.md)](footnote.md) 
-- [ ] [下标与上标 (subscript-superscript.md)](subscript-superscript.md)  
+- [x] [脚注 (footnote.md)](footnote.md) 
+- [x] [下标与上标 (subscript-superscript.md)](subscript-superscript.md)  
 - [ ] [定义列表（术语解释）(definition-list.md)](definition-list.md)  
 
 ### 场景化突破  
