@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [2025-06-29]
+- 新增：脚注`notes/footnote.md`，介绍了脚注在Markdown的应用，包括脚注的格式，脚注的使用，以及一些使用上的细节
+- 新增：上标与下标`notes/subscript-superscript.md`介绍了Markdown中上标与下标的格式，以及使用时的局限性
+
 ## [2025-06-28]
 - 新增：LaTeX数学公式`notes/latex-math-formulas.md`，介绍了Markdown中表示出LaTex数学公式的方法，以及行内公式和块级公式
 - 新增：转义符号`notes/escape-characters.md`，介绍了Markdown中转义符号的使用，使得Markdown中的特殊符号得以显示为文本
