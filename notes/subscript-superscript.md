@@ -2,6 +2,9 @@
 > [!TIP]
 > 这张笔记仅涉及Markdown中上标与下标的使用，不涉及HTML中上标与下标的使用
 
+> [!WARNING]
+> 由于Github会讲`~`识别为删除线，所以此处提供了PDF文件 -> [下标与上标 (subscript-superscript.md)](PDF/subscript-superscript.pdf)
+
 在Markdown中，若想给一个字添加上标与下标，你可以使用Markdown中上标与下标的格式
 
 例如：
