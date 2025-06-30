@@ -1,7 +1,12 @@
 # LaTeX数学格式
+
+> [!WARNING]
+> 由于Github无法渲染部分LaTeX数学公式，相关的笔记请移步到这里 -> [数学公式（LaTeX 语法） (latex-math-formulas.md)](PDF/latex-math-formulas.pdf)
+
 在Markdown中，如果你需要使用LaTeX来表示数学格式，可以使用Markdown中的LaTeX格式来渲染指定的数学公式
 
 例如：$E = mc^2$
+
 $(a+b)^2 = a^2 + 2ab + b^2$
 
 ## LaTeX的表示格式
