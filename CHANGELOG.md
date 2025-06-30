@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-06-30]
+- 新增：定义列表`notes/definition-list.md`介绍了Markdown中定义列表的格式和注意事项
+
 ## [2025-06-29]
 - 新增：脚注`notes/footnote.md`，介绍了脚注在Markdown的应用，包括脚注的格式，脚注的使用，以及一些使用上的细节
 - 新增：上标与下标`notes/subscript-superscript.md`介绍了Markdown中上标与下标的格式，以及使用时的局限性
