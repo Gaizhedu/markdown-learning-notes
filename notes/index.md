@@ -20,7 +20,7 @@
 - [x] [转义字符 (escape-characters.md)](escape-characters.md)
 - [x] [脚注 (footnote.md)](footnote.md) 
 - [x] [下标与上标 (subscript-superscript.md)](subscript-superscript.md)  
-- [ ] [定义列表（术语解释）(definition-list.md)](definition-list.md)  
+- [x] [定义列表（术语解释）(definition-list.md)](definition-list.md)  
 
 ### 场景化突破  
 - [ ] [流程图与图表 (flowchart-diagrams.md)](flowchart-diagrams.md)
