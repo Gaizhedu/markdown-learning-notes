@@ -2,6 +2,8 @@
 
 ## [2025-06-30]
 - 新增：定义列表`notes/definition-list.md`介绍了Markdown中定义列表的格式和注意事项
+- 新增：文件夹`notes/PDF`用于提供一些无法正常渲染的笔记的PDF文件
+- 优化：为 LaTeX数学公式`notes/latex-math-formulas.md`和上标与下标`notes/subscript-superscript.md` 的文件开头添加了相应的PDF文件地址
 
 ## [2025-06-29]
 - 新增：脚注`notes/footnote.md`，介绍了脚注在Markdown的应用，包括脚注的格式，脚注的使用，以及一些使用上的细节
