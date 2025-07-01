@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-01]
+- 优化：标题`notes/heading.md`和列表`notes/list.md`的笔记最后添加了总结，用于总结该笔记的内容
+
 ## [2025-06-30]
 - 新增：定义列表`notes/definition-list.md`介绍了Markdown中定义列表的格式和注意事项
 - 新增：文件夹`notes/PDF`用于提供一些无法正常渲染的笔记的PDF文件
