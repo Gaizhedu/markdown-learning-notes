@@ -24,11 +24,11 @@
 
 ### 场景化突破  
 - [ ] [流程图与图表 (flowchart-diagrams.md)](flowchart-diagrams.md)
-- [ ] [双向链接 (bidirectional-links.md)](bidirectional-links.md) 
-- [ ] [目录生成 (table-of-contents.md)](table-of-contents.md)
+- [x] [双向链接 (bidirectional-links.md)](bidirectional-links.md) 
+- [x] [目录生成 (table-of-contents.md)](table-of-contents.md)
 
 ### 其他
-- [ ] [表情 (emoji.md)](emoji.md)
+- [x] [表情 (emoji.md)](emoji.md)
 
 ## 用HTML突破Markdown的局限
 - [ ] [图片居中 (html-image-center.md)](html-image-center.md)
