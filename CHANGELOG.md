@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [2025-07-02]
+- 新增：双向链接`notes/bidirectional-links.md，介绍了Markdown中的双向链接
+- 新增：TOC目录`notes/table-of-contents.md`，介绍了TOC标题的功能
+- 新增：emoji`notes/emoji.md`，介绍了Markdown中用短代码插入emoji的方法
+
 ## [2025-07-01]
 - 优化：标题`notes/heading.md`和列表`notes/list.md`的笔记最后添加了总结，用于总结该笔记的内容
 
