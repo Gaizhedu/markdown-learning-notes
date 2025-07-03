@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [2025-07-03]
+- 新增：图片居中`notes/html-image-center.md`介绍了有关HTML中将图片对齐的格式
+- 新增：两张图片`notes/assets/004.jpg`和`notes/assets/005.jpg`，用于笔记`notes/html-image-center.md`中
+
 ## [2025-07-02]
 - 新增：双向链接`notes/bidirectional-links.md，介绍了Markdown中的双向链接
 - 新增：TOC目录`notes/table-of-contents.md`，介绍了TOC标题的功能
