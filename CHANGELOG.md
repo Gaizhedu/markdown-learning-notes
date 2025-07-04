@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-04]
+- 新增：改变文字颜色`notes/html-text-color.md`介绍了用HTML中CSS属性来修改文字颜色的方法
+
 ## [2025-07-03]
 - 新增：图片居中`notes/html-image-center.md`介绍了有关HTML中将图片对齐的格式
 - 新增：两张图片`notes/assets/004.jpg`和`notes/assets/005.jpg`，用于笔记`notes/html-image-center.md`中
