@@ -32,7 +32,7 @@
 
 ## 用HTML突破Markdown的局限
 - [x] [图片居中 (html-image-center.md)](html-image-center.md)
-- [ ] [改变文字颜色 (html-text-color.md)](html-text-color.md)
+- [x] [改变文字颜色 (html-text-color.md)](html-text-color.md)
 - [ ] [文本对齐 (html-text-alignment.md)](html-text-alignment.md	)
 - [ ] [可折叠内容 (html-details.md)](html-details.md)
 - [ ] [自定义表格 (html-table-styles.md)](html-table-styles.md)
