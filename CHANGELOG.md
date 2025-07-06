@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-06]
+- 新增：文本对齐`notes/html-text-alignment.md`介绍了HTML对齐文本的方式
+
 ## [2025-07-04]
 - 新增：改变文字颜色`notes/html-text-color.md`介绍了用HTML中CSS属性来修改文字颜色的方法
 
