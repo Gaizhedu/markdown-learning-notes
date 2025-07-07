@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## [2025-07-07]
-- 新增：这折叠内容`notes/html-details.md`介绍了HTML中可折叠内容功能的实现
+- 新增：可折叠内容`notes/html-details.md`介绍了HTML中可折叠内容功能的实现
 - 新增：自定义表格`notes/html-table-styles.md`介绍了HTMl中有关自定义表格的内容，主要介绍其格式，还有注意的细节
 
 ## [2025-07-06]
