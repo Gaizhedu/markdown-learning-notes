@@ -1,7 +1,13 @@
 # CHANGELOG
 
+## [2025-07-10]
+- 新增：Mermaid基础内容`notes/mermaid-base.md`介绍了Mermaid的一些基础内容
+- 新增：flowchart-流程图`notes/mermaid-flowchart.md`未完成笔记，介绍了Mermaid中有关流程图（flowchart）的内容
+- 删除：流程图与图表`notes/flowchart-diagrams.md`笔记的内容转移到了`notes/mermaid-base.md`
+- 新增：导航页`notes/index.md`删除了有关 流程图与图表 的笔记，新增了有关 Mermaid 的笔记
+
 ## [2025-07-09]
-- 熙增：流程图`notes/flowchart-diagrams.md`，介绍了Mermaid中部分flowchart的笔记
+- 新增：流程图`notes/flowchart-diagrams.md`，介绍了Mermaid中部分flowchart的笔记
 
 ## [2025-07-07]
 - 新增：可折叠内容`notes/html-details.md`介绍了HTML中可折叠内容功能的实现
