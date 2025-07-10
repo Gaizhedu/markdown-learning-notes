@@ -23,7 +23,6 @@
 - [x] [定义列表（术语解释）(definition-list.md)](definition-list.md)  
 
 ### 场景化突破  
-- [ ] [流程图与图表 (flowchart-diagrams.md)](flowchart-diagrams.md)
 - [x] [双向链接 (bidirectional-links.md)](bidirectional-links.md) 
 - [x] [目录生成 (table-of-contents.md)](table-of-contents.md)
 
@@ -37,3 +36,8 @@
 - [x] [可折叠内容 (html-details.md)](html-details.md)
 - [x] [自定义表格 (html-table-styles.md)](html-table-styles.md)
 - [ ] [嵌入动态内容 (html-embed.md)](html-embed.md)
+
+## Mermaid相关内容
+- [ ] [Mermaid基础内容 (mermaid-base.md)](mermaid-base.md)
+- [ ] [flowchart-流程图 (mermaid-flowchart.md)](mermaid-flowchart.md)
+- [ ] [sequenceDiagram-时序图 (mermaid-sequence-diagram.md)](mermaid-sequence-diagram.md)
