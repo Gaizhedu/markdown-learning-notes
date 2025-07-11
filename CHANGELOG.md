@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-11]
+- 新增：flowchart-流程图`notes/mermaid-flowchart.md`中的一些内容，包括更多的箭头样式，双向箭头，节点ID，子图等内容
+
 ## [2025-07-10]
 - 新增：Mermaid基础内容`notes/mermaid-base.md`介绍了Mermaid的一些基础内容
 - 新增：flowchart-流程图`notes/mermaid-flowchart.md`未完成笔记，介绍了Mermaid中有关流程图（flowchart）的内容

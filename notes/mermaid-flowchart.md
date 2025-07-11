@@ -194,12 +194,171 @@ flowchart TD
             <td>有箭头带文本虚线</td>
         </tr>
         <tr>
+            <td>--o</td>
+            <td>圆形箭头</td>
+        </tr>
+        <tr>
+            <td>--文本--o</td>
+            <td>带文本的圆形箭头</td>
+        </tr>
+        <tr>
+            <td>--x</td>
+            <td>交叉箭头</td>
+        </tr>
+        <tr>
+            <td>--文本--x</td>
+            <td>带文本的交叉箭头</td>
+        </tr>
+        <tr>
             <td>~~~</td>
             <td>看不见的连接</td>
         </tr>
     </tbody>
 </table>
 
+此外，你还可以使用双向连接来连接两部分内容
+<table>
+    <thead>
+        <tr>
+            <th>符号</th>
+            <th>作用</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><--></td>
+            <td>双向实线箭头</td>
+        </tr>
+        <tr>
+            <td><--文字--></td>
+            <td>有文本的双向实线箭头</td>
+        </tr>
+        <tr>
+            <td><==></td>
+            <td>双向粗实线箭头</td>
+        </tr>
+        <tr>
+            <td><==文本==></td>
+            <td>有文本的双向粗实线箭头</td>
+        </tr>
+        <tr>
+            <td><-.-></td>
+            <td>双向虚线箭头</td>
+        </tr>
+        <tr>
+            <td><-.文本.-></td>
+            <td>有文本的双向虚线箭头</td>
+        </tr>
+        <tr>
+            <td>o--o</td>
+            <td>双向圆形箭头</td>
+        </tr>
+        <tr>
+            <td>o--文本--o</td>
+            <td>有文本的双向圆形箭头</td>
+        </tr>
+        <tr>
+            <td>x--x</td>
+            <td>双向交叉箭头</td>
+        </tr>
+        <tr>
+            <td>x--文本--x</td>
+            <td>有文本的双向交叉箭头</td>
+        </tr>
+    </tbody>
+</table>
+
+#### 增加你链接的长度
+若想要在两个节点之间的连接长度变得更长，可以增加中间的连接号数量，例如
+
+````
+``` Mermaid
+flowchart LR
+A[开始] --长度（默认）--> B[结束]
+```
+
+
+``` Mermaid
+flowchart LR
+A[开始] --长度（增加两个连接号）----> B[结束]
+```
+````
+
+输出效果如下：
+
+``` Mermaid
+flowchart LR
+A[开始] --长度（默认）--> B[结束]
+```
+
+
+``` Mermaid
+flowchart LR
+A[开始] --长度（增加两个连接号）----> B[结束]
+```
+
+**这里需要注意的一点是**，当你的连接是带文本的连接时，连接号需要加在文本的右边，也就是靠近箭头的一侧
+
+### 添加ID
+要想给流程图里面的边（也就是每个节点）添加ID，可以在每个流程的连接前添加`[ID]@`
+
+例如：
+````
+``` Mermaid
+flowchart LR
+    A n1@--> B
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A n1@--> B
+```
+
+有了ID之后，便可以给边（节点）添加一些样式了
+
+### 添加动画
+TODO
+
+### 子图
+``` Mermaid
+flowchart TD
+    subgraph project_1
+    A[start] --> B[end]
+    end
+    subgraph project_2
+    C[start] --> D[end]
+    end
+    B --> C
+    A --> D
+```
+上面是一个子图的实例，可以看到整个流程图被分为两个部分，一个是`project 1`另一个是`project 2`，接下来来讲讲具体格式
+
+首先，为了实现子图的效果，需要认识一个新的容器组件：`subgraph`
+
+
+具体的格式如下：
+````
+``` Mermaid
+flowchart TD
+    subgraph graph_name1
+    A --> B
+    end
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart TD
+    subgraph graph_name1
+    A --> B
+    end
+```
+可以看到，在`subgraph`后面跟着的是组的名称，而后在下一行输入这个组内的流程，最后用`end`结束这个组的分配
+
+TODO ID分配
+
 ### 修改文字大小，背景填充等样式
+TODO
 
 ### 其他节点 {#other-nodes}
+TODO
