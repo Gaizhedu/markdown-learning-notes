@@ -318,7 +318,130 @@ flowchart LR
 有了ID之后，便可以给边（节点）添加一些样式了
 
 ### 添加动画
-TODO
+在给节点分配ID之后，便可以为节点之间的连接添加一些动画
+
+具体的实现方法是，在分配完ID后，再另起一行输入：`id名称@{animate: true}`
+
+这里注意，冒号与`true`之间必须要有一个空格隔开
+
+下面给出示例：
+````
+``` Mermaid
+flowchart LR
+    A n1@--> B
+    n1@{animate: true}   
+```
+````
+
+#### 对动画的各个细节进行调整
+添加完动画后，还可以对动画的一些细节进行调整，比如说速度，线条粗细之类的
+
+##### 动画速度
+若想要调节动画的速度，可以使用`animation`属性来调节速度大小，以下给出两种不同速度的大小
+``` Mermaid
+flowchart TD
+    subgraph slow
+        A1[start] s1@--> B1[end]
+        s1@{animate: true, animation: slow}
+    end
+    subgraph fast
+        A2[start] s2@--> B2[end]
+        s2@{animate: true, animation: fast}
+    end 
+```
+`animation`支持的值有`fast`和`slow`，具体对比效果可以参照上面
+
+具体的代码在这里：
+````
+``` Mermaid
+flowchart TD
+    subgraph slow
+        A1[start] s1@--> B1[end]
+        s1@{animate: true, animation: slow}
+    end
+    subgraph fast
+        A2[start] s2@--> B2[end]
+        s2@{animate: true, animation: fast}
+    end 
+```
+````
+若你想自由的调节速度，可以使用这个，`animation: dash + 时间 + 是否匀速 + 是否循环`
+
+具体的细则可以看下面这个表格
+<table>
+    <thead>
+        <tr>
+            <th>属性名称</th>
+            <th>值</th>
+            <th>作用</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>时间</td>
+            <td>数字 + s</td>
+            <td>每个循环所使用的时间，如1s则单个循环为1s</td>
+        </tr>
+        <tr>
+            <td rowspan = "5">是否匀速</td>
+            <td>linear</td>
+            <td>动画运动速度为<strong>匀速</strong></td>
+        </tr>
+        <tr>
+            <td>ease</td>
+            <td>变速运动，变速规律为<strong>慢 -> 快 -> 慢</strong></td>
+        </tr>
+        <tr>
+            <td>ease-in</td>
+            <td>变速运动，变速规律为<strong>慢 -> 快</strong></td>
+        </tr>
+        <tr>
+            <td>ease-out</td>
+            <td>变速运动，变速规律为<strong>快 -> 慢</strong></td>
+        </tr>
+        <tr>
+            <td>ease-in-out</td>
+            <td>变速运动，变速规律为<strong>开始和结束慢，中间快</strong></td>
+        </tr>
+        <tr>
+            <td rowspan = "2">是否循环</td>
+            <td>infinite</td>
+            <td>无限循环播放</td>
+        </tr>
+        <tr>
+            <td>数字</td>
+            <td>循环n次，n为数字大小</td>
+        </tr>
+    </tbody>
+</table>
+
+##### 动画样式
+除了调整动画的速度，还可以调整动画的各种样式，如线条颜色，长短等
+
+以下是一个具体例子，在这个例子中，线条的颜色和粗细都发生了改变
+
+``` Mermaid
+flowchart LR
+    A[Start] n1@--> B[End]
+    classDef color1 stroke: #10CAFE, stroke-width: 5px; 
+    class n1 color1
+```
+常见的属性如下：
+<table>
+    <thead>
+        <tr>
+            <th>属性</th>
+            <th>作用</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ### 子图
 ``` Mermaid
