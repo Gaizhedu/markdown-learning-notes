@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-12]
+- 新增：flowchart-流程图`notes/mermaid-flowchart.md`的部分笔记，介绍了有关动画的笔记
+
 ## [2025-07-11]
 - 新增：flowchart-流程图`notes/mermaid-flowchart.md`中的一些内容，包括更多的箭头样式，双向箭头，节点ID，子图等内容
 
