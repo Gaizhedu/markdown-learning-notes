@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## [2025-07-14]
+- 新增：flowchart-流程图`notes/mermaid-flowchart.md`中有关于一些常见属性的说明，同时介绍了节点属性中的内容
+
 ## [2025-07-12]
 - 新增：flowchart-流程图`notes/mermaid-flowchart.md`的部分笔记，介绍了有关动画的笔记
 
