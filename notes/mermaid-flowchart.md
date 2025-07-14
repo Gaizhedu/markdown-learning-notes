@@ -423,25 +423,240 @@ flowchart TD
 ``` Mermaid
 flowchart LR
     A[Start] n1@--> B[End]
-    classDef color1 stroke: #10CAFE, stroke-width: 5px; 
+    classDef color1 stroke: #10CAFE, stroke-width: 5px;
     class n1 color1
 ```
 常见的属性如下：
 <table>
     <thead>
         <tr>
+            <th>类别</th>
             <th>属性</th>
             <th>作用</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td></td>
-            <td></td>
+            <td rowspan = "6">节点属性</td>
+            <td>fill</td>
+            <td>为节点填充颜色</td>
+        </tr>
+        <tr>
+            <td>stroke</td>
+            <td>改变节点的边框颜色</td>
+        </tr>
+        <tr>
+            <td>stroke-width</td>
+            <td>节点边框的像素厚度</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>使用类</td>
+        </tr>
+        <tr>
+            <td>shape</td>
+            <td>节点的形状</td>
+        </tr>
+        <tr>
+            <td>style</td>
+            <td>自定义CSS类型</td>
+        </tr>
+        <tr>
+            <td rowspan = "6">连接属性</td>
+            <td>stroke</td>
+            <td>连接线颜色</td>
+        </tr>
+        <tr>
+            <td>stroke-width</td>
+            <td>连接线宽度</td>
+        </tr>
+        <tr>
+            <td>stroke-dasharray</td>
+            <td>连接线为虚线（可以调整参数）</td>
+        </tr>
+        <tr>
+            <td>arrowhead-end</td>
+            <td>箭头样式</td>
+        </tr>
+        <tr>
+            <td>label</td>
+            <td>连接线上的文本</td>
+        </tr>
+        <tr>
+            <td>linkStyle</td>
+            <td>批量设置连接线的样式</td>
+        </tr>
+        <tr>
+            <td rowspan = "3">动画属性</td>
+            <td>animate</td>
+            <td>启用连接线动画</td>
+        </tr>
+        <tr>
+            <td>animation</td>
+            <td>控制动画速度</td>
+        </tr>
+        <tr>
+            <td>click</td>
+            <td>点击事件（要绑定JavaScript函数）</td>
         </tr>
     </tbody>
 </table>
 
+接下来来详细介绍每个属性
+
+###### fill
+例子：
+````
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A fill: #10CAFE
+```
+````
+输出效果如下：
+
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A fill: #10CAFE
+```
+这里的`style A fill: #10CAFE`是后面的`style`的内容，可以先跳到这个部分
+
+###### stroke
+`stroke`可以用在节点，或者用在连接上，这里两者全部展示，后面便不再重复说明
+````
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A stroke: #10CAFE
+    C[start] e1@--> D[end]
+    classDef e1_c stroke: #10CAFE
+    class e1 e1_c
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A stroke: #10CAFE
+    C[start] e1@--> D[end]
+    classDef e1_c stroke: #10CAFE
+    class e1 e1_c
+```
+
+###### stroke-width
+与上文的`stroke`一致，这里同样演示该属性在节点和连接上的应用，下文节点属性处便不再演示
+````
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A stroke-width: 5px
+    C[start] e1@--> D[end]
+    classDef e1_c stroke-width: 5px
+    class e1 e1_c
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A stroke-width: 5px
+    C[start] e1@--> D[end]
+    classDef e1_c stroke-width: 5px
+    class e1 e1_c
+```
+
+可以明显的观察到边框和连接变粗了
+
+###### class
+使用类（class）可以为节点批量分配属性：
+````
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    classDef n1 fill:#12CAFE, stroke-width:5px;
+    class A e1_c
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    classDef n1 fill:#12CAFE, stroke-width:5px;
+    class A n1
+```
+这里简单介绍一下：`classDef`是创建一个类，接下来跟着的`n1`是这个类的名字，后面跟着的是这个类的属性
+
+接下来要将这个类分配给对应的地方，需要用到`class`，比如说这里要分配给 节点A ，则写作`class A n1`
+这里A就是对应的节点名称，后面的`n1`就是对应的类的名称
+
+此外，除了用`class`分配外，还可以用另一种方法，也就是`:::`
+````
+``` Mermaid
+flowchart LR
+    A[start]:::n1 --> B[end]
+    classDef n1 fill:#12CAFE,stroke-width:5px
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start]:::n1 --> B[end]
+    classDef n1 fill:#12CAFE,stroke-width:5px
+```
+节点后面的`:::`后面跟着的是类的名称，其他创建类的方法跟上面是一致的
+
+###### shape
+利用`shape`可以改变你的节点形状，这里简单举几个例子，其他例子可在文章末尾看到
+
+这里需要另外注意的一点是，使用`shape`需要用到一种新的语法
+````
+``` Mermaid
+flowchart LR
+    A[start]@{shape: cyl} --> B[end]
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start]@{shape: cyl} --> B[end]
+```
+格式如下：
+在原本的节点后面加上`@{shape: 形状}`，**这里需要注意的是，冒号与后面的形状的ID之间需要用空格隔开**
+
+此外，如果想要更加简洁的话，可以将原本节点中的文本样式删去，改为在花括号中添加`label`标签
+
+例如：
+````
+``` Mermaid
+flowchart LR
+    A@{shape: cyl, label: "start"} --> B[end]
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A@{shape: cyl, label: "start"} --> B[end]
+```
+这里`label`的内容对应的就是原先方括号中的文本
+
+###### style
+在Mermaid中，你还可用用`style`为节点添加CSS属性
+例如：
+````
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A fill:#10CAFE
+```
+````
+输出效果如下：
+``` Mermaid
+flowchart LR
+    A[start] --> B[end]
+    style A fill:#10CAFE
+```
+这里`style`后面跟着的就是节点的ID，取决于你想修改哪个节点的属性，ID后面跟着的是CSS属性
 
 ### 子图
 ``` Mermaid
